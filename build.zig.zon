@@ -1,20 +1,8 @@
 .{
     .name = .monorepo,
-
     .version = "0.0.0",
-
     .fingerprint = 0x7b6bc5a9c82a9fe,
-
-    .minimum_zig_version = "0.14.0",
-
+    .minimum_zig_version = "0.16.0",
     .dependencies = .{},
-
-    .paths = .{
-        "build.zig",
-        "build.zig.zon",
-        "src",
-        // For example...
-        //"LICENSE",
-        //"README.md",
-    },
+    .paths = .{ "build.zig", "build.zig.zon", "src" },
 }
